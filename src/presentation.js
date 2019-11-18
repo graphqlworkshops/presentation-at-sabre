@@ -19,7 +19,8 @@ import {
   TableHeaderItem,
   TableItem,
   TableBody,
-  Image
+  Image,
+  Link
 } from "spectacle";
 
 import { Context } from "./context";
@@ -438,7 +439,29 @@ export default class Presentation extends React.Component {
           <Image src="https://www.apollographql.com/docs/apollo-server/ee7fbac9c0ca5b1dd6aef886bb695e63/index-diagram.svg"></Image>
         </Slide>
         <Slide bgColor="secondary">
-          <Heading textColor="graphql">Enough talking...</Heading>
+          <Heading textColor="graphql" textSize={48}>
+            Enough talking...
+          </Heading>
+          <List textColor="primary">
+            <ListItem>
+              <Link
+                textColor="primary"
+                href="https://codesandbox.io/s/apollo-server-75f99"
+                target="_blank"
+              >
+                Editor
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://75f99.sse.codesandbox.io/"
+                target="_blank"
+                textColor="primary"
+              >
+                Standalone Playground
+              </Link>
+            </ListItem>
+          </List>
         </Slide>
       </Deck>
     );
