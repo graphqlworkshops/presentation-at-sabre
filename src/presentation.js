@@ -188,7 +188,7 @@ export default class Presentation extends React.Component {
             As a desktop user, When I land on the blog's main screen Then Im
             able to ...
           </Heading>
-          <List textColor="primary">
+          <List textColor="tertiary">
             <ListItem>
               see a list of posts displaying the title only, NOT the content
             </ListItem>
@@ -207,7 +207,7 @@ export default class Presentation extends React.Component {
             As a mobile user, When I land on the blog's main screen Then Im able
             to ...
           </Heading>
-          <List textColor="primary">
+          <List textColor="tertiary">
             <ListItem>
               see a list of posts displaying the title only, NOT the content
             </ListItem>
@@ -217,7 +217,7 @@ export default class Presentation extends React.Component {
           <Heading size={6} textColor="primary" margin="50px 0">
             As a blog api consumer, When I ask for all posts, Then I get...
           </Heading>
-          <List textColor="primary">
+          <List textColor="tertiary">
             <ListItem>
               a list of posts with title, content, author complete info and all
               comments

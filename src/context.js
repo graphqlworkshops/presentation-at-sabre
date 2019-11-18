@@ -17,7 +17,7 @@ export class Context extends React.Component {
         <Appear>
           <div>
             <Text margin="20px 0 0" textColor={textColor} fit>
-              They dont know it yet but the integration cost will be...
+              They didnt know it then but the integration cost would be...
             </Text>
           </div>
         </Appear>

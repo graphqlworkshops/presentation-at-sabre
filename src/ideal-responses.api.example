@@ -1,8 +1,8 @@
-queryPostsForApi = {
+query postsForApi {
   posts {
-    postId
-    title    
-    content
+    id
+    title
+    content: body
     comments {
       count
       edges {
@@ -15,11 +15,10 @@ queryPostsForApi = {
         }
       }
     }
-    authors {
+    author {
       id
       name
       username
-      email
       address {
         street
         suite
@@ -27,20 +26,20 @@ queryPostsForApi = {
         zipcode
         geo {
           lat
-          lon
-        }
-        phone
-        website
-        company {
-          name
-          catchPhrase
-          bs
+          lng
         }
       }
+      phone
+      website
+      company {
+        name
+        catchPhrase
+        bs
+      }
       posts {
-        postId
+        id
         title
-      }      
+      }
     }
   }
 }

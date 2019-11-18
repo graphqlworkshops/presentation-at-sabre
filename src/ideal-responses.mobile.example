@@ -1,4 +1,4 @@
-queryPostsForMobile =  {
+query postsForMobile {
   posts {
     title        
   }

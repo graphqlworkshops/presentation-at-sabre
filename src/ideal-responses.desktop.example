@@ -1,4 +1,4 @@
-queryPostsForDesktop = {
+query postsForDesktop {
   posts {
     title    
     comments {
