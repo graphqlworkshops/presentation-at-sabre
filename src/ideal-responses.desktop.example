@@ -1,0 +1,14 @@
+queryPostsForDesktop = {
+  posts {
+    title    
+    comments {
+      count
+    }
+    author {
+      name
+      posts {
+        title
+      }      
+    }
+  }
+}

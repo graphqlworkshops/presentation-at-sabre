@@ -1,0 +1,5 @@
+queryPostsForMobile =  {
+  posts {
+    title        
+  }
+}

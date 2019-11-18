@@ -1,0 +1,46 @@
+queryPostsForApi = {
+  posts {
+    postId
+    title    
+    content
+    comments {
+      count
+      edges {
+        node {
+          id
+          postId
+          name
+          email
+          body
+        }
+      }
+    }
+    authors {
+      id
+      name
+      username
+      email
+      address {
+        street
+        suite
+        city
+        zipcode
+        geo {
+          lat
+          lon
+        }
+        phone
+        website
+        company {
+          name
+          catchPhrase
+          bs
+        }
+      }
+      posts {
+        postId
+        title
+      }      
+    }
+  }
+}
